@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGvYjCVURzTVqYsspp5gNI95K7XJgYZXUqSw&usqp=CAU');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.travel-form{
+    background: rgba(256,256,256,0.15);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.travel-form-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.navbar{
+   background: rgba(256,256,256,0.15) ;
+}
+.sec-navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.sec-navbar-button{
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin: 0px 5px;
+    background:rgba(256,256,256,0.15)
+}
+.selected-button{
+    background:rgba(256,256,256,0.5) ;
+}
+.button{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGvYjCVURzTVqYsspp5gNI95K7XJgYZXUqSw&usqp=CAU');
+    width: 100%;
+    border-radius: 30px;
+    border:none;
+    height: 30px;
+    color: white;
+}
